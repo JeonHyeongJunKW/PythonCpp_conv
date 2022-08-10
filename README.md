@@ -9,13 +9,15 @@ OpenCV >=3.0
 
 Python ==3.8 
 
+cmake == 3.15
+
 ```
 
 ## 빌드 방법
 
 ```
 git clone https://github.com/JeonHyeongJunKW/PythonCpp_conv.git
-cd PYTHONCPP_CONV
+cd PythonCpp_conv
 mkdir build
 cd build
 cmake ..
