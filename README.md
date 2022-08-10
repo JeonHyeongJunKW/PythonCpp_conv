@@ -53,10 +53,13 @@ ex) in build
 ./Example2 ../Sample/color.png ../Sample/gray.png ../Example2/
 
 ```
-<출력된 이미지>
-
+### <출력된 이미지>
+#### 칼라이미지
 <img src="./img/colorresult.png">
+
+#### 흑백이미지
 <img src="./img/grayresult.png">
+
 ### 설명 : PyObject를 이용하여 Mat을 Numpy Array로 바꾸고, Python에서 네모를 그리고, Numpy Array를 Mat으로 다시 바꿔서 출력합니다. 코드 자체가 unsigned char 타입의 이미지만 가능하도록 설계되있습니다.
 
 <br>
